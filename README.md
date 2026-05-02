@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# scBIG: Beyond Independent Genes
+# scBIG: Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction (ICML 2026)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.04901-b31b1b?logo=arxiv)](https://arxiv.org/abs/2602.04901)
 [![Codebase](https://img.shields.io/badge/Codebase-GitHub-181717?logo=github)](https://github.com/ttruan2426-dot/scBIG)
