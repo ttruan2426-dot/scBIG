@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ttruan2426-dot/scBIG">
-    <img src="https://raw.githubusercontent.com/ttruan2426-dot/scBIG/main/assets/logo.png" alt="scBIG logo" width="180" />
+    <img src="https://raw.githubusercontent.com/ttruan2426-dot/scBIG/main/assets/logo.png" alt="scBIG logo" width="500" />
   </a>
 </p>
 
