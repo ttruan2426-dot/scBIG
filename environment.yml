@@ -1,0 +1,23 @@
+name: scbig
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn=1.5.1
+  - anndata
+  - scanpy
+  - tqdm
+  - pytorch
+  - pip:
+      - POT>=0.9
+      - jax[cuda12]==0.4.28
+      - flax>=0.8
+      - optax>=0.2
+      - diffrax>=0.5
+      - ott-jax==0.5
+      - cellflow-tools

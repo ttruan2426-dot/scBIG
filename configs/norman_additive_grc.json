@@ -1,0 +1,30 @@
+{
+  "model_settings": {
+    "latent_dim": 50,
+    "embedding_dim": 256,
+    "encoder_layers": 3,
+    "attention_heads": 8,
+    "inducing_points": 8,
+    "gene_clusters": 32,
+    "flow_hidden_layers": 2,
+    "flow_hidden_dim": 1024,
+    "flow_dropout": 0.1,
+    "condition_embedding_dim": 256
+  },
+  "stage_1_pretrain": {
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam"
+  },
+  "stage_2_flow": {
+    "iterations": 500000,
+    "batch_size": 1024,
+    "gradient_accumulation": 20,
+    "gradient_clip_norm": 1.0,
+    "optimizer": "Adam",
+    "learning_rate": 0.00005,
+    "lambda_corr": 0.1,
+    "lambda_pathway": 0.1
+  }
+}
